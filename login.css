@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.first{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(image/archi.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box{
+    height: 480px;
+    width: 380px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 9px #0404041f;
+}
+
+.button-box{
+    width: 130px;
+    margin: 35px 120px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #37d1081f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 37px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 22px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background: linear-gradient(to right,#05e714,#fff306);
+    border-radius: 30px;
+}
+
+.input-group{
+    top: 145px;
+    position: absolute;
+    width: 300px;
+    transition: 0.5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    margin: 7px 24px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width:85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin-left: 46px;
+    margin-top: 7px;
+    margin-bottom: 23px;
+    position: center;
+    background: linear-gradient(to right,#05e714,#fff306);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 5px 24px 24px;
+}
+
+span{
+    color: #777;
+    font-size: 13px;
+    margin: 28px 0;
+    position: absolute;
+}
+
+.input-group p{
+  padding-left: 24px;
+}
+
+.input-group p a{
+    text-decoration: none;
+}
+
+#login{
+    left: 17px;
+}
+
+#register{
+    left: 450px;
+}
+
+@media(max-width: 700px)
+{
+    .form-box{
+    height: 400px;
+    width: 300px;
+    margin-top: 92px;
+}
+
+.button-box{
+    width: 80px;
+    margin: 35px 75px;
+}
+
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+}
+
+.input-group{
+    top: 120px;
+    position: absolute;
+    width: 240px;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.check-box{
+    margin: 30px 5px 24px 8px;
+}
+
+.submit-btn{
+    width:85%;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.input-group p{
+  padding-left: 18px;
+}
+    
+}
